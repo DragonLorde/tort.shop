@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Dreams</title>
+    <link rel="stylesheet" href="assets/styels/index.css">
+    <link rel="shortcut icon" href="assets/res/ico/tort.ico" type="image/x-icon">
+    <script src="https://unpkg.com/cookielib/src/cookie.min.js"></script>
+
+</head>
+<body>
+    <div class="reslide ">
+        <div class="lds-ring"><div></div><div></div><div></div><div></div></div>
+    </div>
+    <div class="wrapper">
+        <div class="bar__menu nav__hide">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu nav__hide">
+            <div class="menu__bar">
+                <ol>
+                    <li> <a href="#bn">Главная</a> </li>
+                    <li> <a href="#inf">О нас</a> </li>
+                    <li> <a href="#itm">Каталог</a> </li>
+                    <li> <a href="#ftr">Контакты</a> </li>
+                    <li id="lg2"> <a href="/login.html">Войти</a> </li>
+                </ol>
+            </div>
+        </div>
+        <div class="banner" id="bn">
+            <div class="banner__slider">
+                <div class="banner__slide1 slide">
+                    <div></div>
+                </div>
+                <div class="banner__slide2 slide banner__hide banner__hideall">
+                    <div></div>
+                </div>
+            </div>
+            <div class="banner__nav">
+                <h1>Sweet Dreams</h1>
+                <ol>
+                    <li> <a href="#bn">Главная</a> </li>
+                    <li> <a href="#inf">О нас</a> </li>
+                    <li> <a href="#itm">Каталог</a> </li>
+                    <li> <a href="#ftr">Контакты</a> </li>
+                    <li id="lg"> <a href="/login.html">Войти</a> </li>
+                </ol>
+            </div>
+            <div class="banner__srch">
+                <form action="" onsubmit="Srch(); return false;">
+                    <input type="text" placeholder="Поиск" class="val__stcht" required>
+                    <button class="srcht"></button>
+                </form>
+            </div>
+            <div class="banner__text">
+                <p>Sweet Dreams</p>
+            </div>
+        </div>
+        <div class="info" id="inf">
+            <div class="info__text">
+                <h2>О НАШЕМ МАГАЗИНЕ</h2>
+                <p>
+                    Мы - кондитерская "Sweet Dreams", выполняем <br>
+                    торты на заказ любой сложности. Изготавливаем торты только из <br>
+                    натуральных ингредиентов, поэтому торт <br>
+                     всегда будет вкусным и свежим. <br>
+                     Оставляйте заявку на сайте!
+                </p>
+                <a href="#itm">Купить</a>
+            </div>
+            <div class="info__img">
+                <div></div>
+            </div>
+        </div>
+        <div class="topp">
+            <h3>ПОЧЕМУ НАМ ДОВЕРЯЮТ</h3>
+            <div class="topp__col">
+                <div class="topp__row">
+                    <img src="assets/res/icons/colp.svg" alt="">
+                    <div class="topp__row-row">
+                        <p>Натуральные</p>
+                        <p>
+                            Никаких искусственных жиров, добавок, <br>
+                             готовых смесей и усилителей <br>
+                            вкуса
+                        </p>
+                    </div>
+                </div>
+                <div class="topp__row">
+                    <img src="assets/res/icons/food.svg" alt="">
+                    <div class="topp__row-row">
+                        <p>Свежие</p>
+                        <p>
+                            Торт готовится в назначенный день, <br>
+                            свежесть и неизменность вкуса <br>
+                             гарантированы
+                        </p>
+                    </div>
+                </div>
+                <div class="topp__row">
+                    <img src="assets/res/icons/mm.svg" alt="">
+                    <div class="topp__row-row">
+                        <p>Вкусные</p>
+                        <p>
+                            Наши торты сочные и вкусные, потому <br>
+                            что мы делаем их с душой и кладем много  <br>
+                            начинки
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="topp__col">
+                <div class="topp__row">
+                    <img src="assets/res/icons/tort.svg" alt="">
+                    <div class="topp__row-row">
+                        <p>Аккуратные</p>
+                        <p>
+                            Каждый торт выполнен с большим <br>
+                            старанием, поэтому он выглядит <br>
+                            идеально
+                        </p>
+                    </div>
+                </div>
+                <div class="topp__row">
+                    <img src="assets/res/icons/shop.svg" alt="">
+                    <div class="topp__row-row">
+                        <p>В любом формате</p>
+                        <p>
+                            Вы можете предложить свой дизайн <br>
+                             торта или выбрать имеющийся из  <br>
+                            каталога
+                        </p>
+                    </div>
+                </div>
+                <div class="topp__row">
+                    <img src="assets/res/icons/clock.svg" alt="">
+                    <div class="topp__row-row">
+                        <p>Всегда в наличии</p>
+                        <p>
+                            Для срочных заказов у нас всегда в <br>
+                             наличии чизкейки или торт три <br>
+                             шоколада
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="topp__info">
+                <div>
+
+                </div>
+                <p>Специально для вас!</p>
+                <p>
+                    УЖЕ ЕСТЬ ФОТО, ИДЕЯ ДЛЯ ТОРТА? ПРИСЫЛАЙТЕ!
+                    МЫ СДЕЛАЕМ ЕГО ДЛЯ ВАС
+                </p>
+            </div>
+            <div class="topp__text">
+                <p>УСЛОВИЯ ОПЛАТЫ И ДОСТАВКА</p>
+                <div class="topp__text-col">
+                    <div class="topp__text-row">
+                        <p>
+                            Оставьте заявку на сайте или <br>
+                            позвоните нам. Для брони заказа  <br>
+                            необходимо внести 50%-ную <br>
+                             предоплату.
+                        </p>
+                    </div>
+                    <div class="topp__text-row">
+                        <p>
+                            Вы можете приехать к нам, чтобы <br>
+                             внести предоплату или перевести ее <br>
+                              на карту Сбербанка. Это быстро и <br>
+                               удобно.
+                        </p>
+                    </div>
+                    <div class="topp__text-row">
+                        <p>
+                            Доплата и самовывоз <br>
+                            осуществляются в назначенный <br> 
+                            день. Есть возможность оформить <br>
+                             доставку стоимостью от 200 р. <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item" id="itm">
+            <h4>МЫ ПРЕДЛАГАЕМ</h4>
+            <div class="item__title">
+                <p>Кейк-попсы</p>
+            </div>
+            <div class="item__col">
+              
+                <div class="item__row">
+                    <img src="assets/res/items/keypop/item1.png" alt="">
+                    <p>100₽/шт</p>
+                    <p>
+                        Кейк-поп — один из видов <br>
+                        кондитерских изделий, <br>
+                         мини-тортики на палочке. <br>
+                    </p>
+                    <a href="/item.html?id=7">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/keypop/Ellipse 5.png" alt="">
+                    <p>100₽/шт</p>
+                    <p>
+                        Кейк-поп — один из видов <br>
+                        кондитерских изделий, <br>
+                         мини-тортики на палочке. <br>
+                    </p>
+                    <a href="/item.html?id=8">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/keypop/Ellipse6.png" alt="">
+                    <p>100₽/шт</p>
+                    <p>
+                        Кейк-поп — один из видов <br>
+                        кондитерских изделий, <br>
+                         мини-тортики на палочке. <br>
+                    </p>
+                    <a href="/item.html?id=9">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/keypop/Ellipse 7.png" alt="">
+                    <p>100₽/шт</p>
+                    <p>
+                        Кейк-поп — один из видов <br>
+                        кондитерских изделий, <br>
+                         мини-тортики на палочке. <br>
+                    </p>
+                    <a href="/item.html?id=10">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/keypop/Ellipse 8.png" alt="">
+                    <p>100₽/шт</p>
+                    <p>
+                        Кейк-поп — один из видов <br>
+                        кондитерских изделий, <br>
+                         мини-тортики на палочке. <br>
+                    </p>
+                    <a href="/item.html?id=11">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/keypop/Ellipse 9.png" alt="">
+                    <p>100₽/шт</p>
+                    <p>
+                        Кейк-поп — один из видов <br>
+                        кондитерских изделий, <br>
+                         мини-тортики на палочке. <br>
+                    </p>
+                    <a href="/item.html?id=12">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/keypop/Ellipse 10.png" alt="">
+                    <p>100₽/шт</p>
+                    <p>
+                        Кейк-поп — один из видов <br>
+                        кондитерских изделий, <br>
+                         мини-тортики на палочке. <br>
+                    </p>
+                    <a href="/item.html?id=13">Купить</a>
+                </div>
+            </div>
+            <div class="item__title">
+                <p>Трайфлы</p>
+            </div>
+            <div class="item__col">
+              
+                <div class="item__row">
+                    <img src="assets/res/items/traifl/Ellipse 11.png" alt="">
+                    <p>120₽/шт</p>
+                    <p>
+                        Трайфл — блюдо английской кухни, <br>
+                        представляющее собой десерт из  <br>
+                        бисквитного теста с заварным кремом <br>
+                    </p>
+                    <a href="/item.html?id=14">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/traifl/Ellipse 12.png" alt="">
+                    <p>120₽/шт</p>
+                    <p>
+                        Трайфл — блюдо английской кухни, <br>
+                        представляющее собой десерт из  <br>
+                        бисквитного теста с заварным кремом <br>
+                    </p>
+                    <a href="/item.html?id=15">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/traifl/Ellipse 13.png" alt="">
+                    <p>120₽/шт</p>
+                    <p>
+                        Трайфл — блюдо английской кухни, <br>
+                        представляющее собой десерт из  <br>
+                        бисквитного теста с заварным кремом <br>
+                    </p>
+                    <a href="/item.html?id=16">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/traifl/Ellipse 14.png" alt="">
+                    <p>120₽/шт</p>
+                    <p>
+                        Трайфл — блюдо английской кухни, <br>
+                        представляющее собой десерт из  <br>
+                        бисквитного теста с заварным кремом <br>
+                    </p>
+                    <a href="/item.html?id=17">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/traifl/Ellipse 15.png" alt="">
+                    <p>120₽/шт</p>
+                    <p>
+                        Трайфл — блюдо английской кухни, <br>
+                        представляющее собой десерт из  <br>
+                        бисквитного теста с заварным кремом <br>
+                    </p>
+                    <a href="/item.html?id=18">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/traifl/Ellipse 16.png" alt="">
+                    <p>120₽/шт</p>
+                    <p>
+                        Трайфл — блюдо английской кухни, <br>
+                        представляющее собой десерт из  <br>
+                        бисквитного теста с заварным кремом <br>
+                    </p>
+                    <a href="/item.html?id=19">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/traifl/Ellipse 17.png" alt="">
+                    <p>120₽/шт</p>
+                    <p>
+                        Трайфл — блюдо английской кухни, <br>
+                        представляющее собой десерт из  <br>
+                        бисквитного теста с заварным кремом <br>
+                    </p>
+                    <a href="/item.html?id=20">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/traifl/Ellipse 18.png" alt="">
+                    <p>120₽/шт</p>
+                    <p>
+                        Трайфл — блюдо английской кухни, <br>
+                        представляющее собой десерт из  <br>
+                        бисквитного теста с заварным кремом <br>
+                    </p>
+                    <a href="/item.html?id=21">Купить</a>
+                </div>
+            </div>
+            <div class="item__title">
+                <p>Торты на детский праздник</p>
+            </div>
+            <div class="item__col">
+                <div class="item__row">
+                    <img src="assets/res/items/child/Ellipse 19.png" alt="">
+                    <p>от 1000р/шт</p>
+                    <p>
+                        Хотите порадовать своего ребенка – <br>
+                        закажите детский торт
+                    </p>
+                    <a href="/item.html?id=22">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/child/Ellipse 20.png" alt="">
+                    <p>от 1000р/шт</p>
+                    <p>
+                        Хотите порадовать своего ребенка – <br>
+                        закажите детский торт
+                    </p>
+                    <a href="/item.html?id=23">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/child/Ellipse 21.png" alt="">
+                    <p>от 1000р/шт</p>
+                    <p>
+                        Хотите порадовать своего ребенка – <br>
+                        закажите детский торт
+                    </p>
+                    <a href="/item.html?id=24">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/child/Ellipse 22.png" alt="">
+                    <p>от 1000р/шт</p>
+                    <p>
+                        Хотите порадовать своего ребенка – <br>
+                        закажите детский торт
+                    </p>
+                    <a href="/item.html?id=25">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/child/Ellipse 23.png" alt="">
+                    <p>от 1000р/шт</p>
+                    <p>
+                        Хотите порадовать своего ребенка – <br>
+                        закажите детский торт
+                    </p>
+                    <a href="/item.html?id=26">Купить</a>
+                </div>
+            </div>
+            <div class="item__title">
+                <p>На свадьбу</p>
+            </div>
+            <div class="item__col">
+                <div class="item__row">
+                    <img src="assets/res/items/svdb/Ellipse 24.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенной свадьбы не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=27">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/svdb/Ellipse 25.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенной свадьбы не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=28">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/svdb/Ellipse 26.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенной свадьбы не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=29">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/svdb/Ellipse 27.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенной свадьбы не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=30">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/svdb/Ellipse 28.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенной свадьбы не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=31">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/svdb/Ellipse 29.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенной свадьбы не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=32">Купить</a>
+                </div>
+            </div>
+            <div class="item__title">
+                <p>На день рождения</p>
+            </div>
+            <div class="item__col">
+                <div class="item__row">
+                    <img src="assets/res/items/day/Ellipse 30.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенного дня рождения не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=33">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/day/Ellipse 31.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенного дня рождения не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=34">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/day/Ellipse 32.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенного дня рождения не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=35">Купить</a>
+                </div>
+                <div class="item__row">
+                    <img src="assets/res/items/day/Ellipse 33.png" alt="">
+                    <p>от 2500р/шт</p>
+                    <p>
+                        У необыкновенного дня рождения не <br>
+                         бывает незначительных деталей
+                    </p>
+                    <a href="/item.html?id=36">Купить</a>
+                </div>
+            </div>
+        </div>
+        <div class="info2">
+            <div class="info2__img">
+                <div></div>
+            </div>
+            <div class="info2__text">
+                <h2>НАЧИНКИ</h2>
+                <div class="info2__block">
+                    <div class="info2__col">
+                        <div class="info2__row">
+                            <p>
+                                Йогуртовая
+                                <br>
+                                Ванильный бисквит, сливочно- <br>
+                                йогуртовый крем, клубничный <br>
+                                или персиковый джем. 
+                            </p>
+                        </div>
+                        <div class="info2__row">
+                            <p>
+                                Красный бархат
+                                <br>
+                                Традиционный рецепт яркого <br>
+                                 красного десерта с нежным  <br>
+                                 кремом чиз и ягодным желе. 
+                            </p>
+                        </div>
+                        <div class="info2__row">
+                            <p>
+                                Три шоколада
+                                <br>
+                                Шоколад в трех проявлениях: <br>
+                                белый, молочный, тёмный и <br>
+                                тонкий слой бисквита.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info2__col">
+                        <div class="info2__row">
+                            <p>
+                                Дюймовочка
+                                <br>
+                                Нежные коржи на сгущённом <br>
+                                 молоке и сливочно творожный  <br>
+                                 крем.
+                            </p>
+                        </div>
+                        <div class="info2__row">
+                            <p>
+                                Маракеш
+                                <br>
+                                Морковный пряный бисквит с <br>
+                                 кремом чиз, орешками и <br>
+                                  домашней карамелью.
+                            </p>
+                        </div>
+                        <div class="info2__row">
+                            <p>
+                                Бруно
+                                <br>
+                                Чизкейк , фисташки, домашняя <br>
+                                 карамель, все это спрятано под <br>
+                                  шоколадным муссом. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map">
+            <div class="map__info">
+                <h4>Торты на заказ Тюмень</h4>
+                <p style="text-align: center;">Торт – король десертов. Это сладкий символ 
+                     любого торжества или праздника.  <br>
+                     Сложно представить детский День Рождения без 
+                     тортика со свечками, которые нужно обязательно задуть,
+                      чтобы исполнилось заветное желание.
+                </p>
+                <a href="#itm">Купить</a>
+            </div>
+            <div class="map__map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2165.197730611467!2d65.47671101613568!3d57.13368149211342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x43bbe1ed67d56d17%3A0xe18c7b90a52d5159!2z0YPQuy4g0JrRgNC10LzQu9C10LLRgdC60LDRjywgODUg0LrQvtGA0L_Rg9GBIDEsINCi0Y7QvNC10L3RjCwg0KLRjtC80LXQvdGB0LrQsNGPINC-0LHQuy4sIDYyNTA0OQ!5e0!3m2!1sru!2sru!4v1622264999308!5m2!1sru!2sru" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            </div>
+        </div>
+        <footer class="footer" id="ftr">
+            <div class="footer__cont">
+                <p>Контакты</p>
+                <ol>
+                    <li><a href="">8-(909)-188-40-88</a></li>
+                    <li><a href="">anastasiyash01@mail.ru</a></li>
+                    <li><a href="">Кремлевская 85к1</a></li>
+                    <li><a href="">7.00-20.00</a></li>
+                </ol>
+                <a href="https://www.instagram.com/sweet__dreams_72/"></a>
+            </div>
+            <div class="footer__info">
+                <h5>Sweet Dreams</h5>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing 
+                    elit. Volutpat pulvinar ut nec velit dictum <br>
+                    sapien, ultrices. 
+                </p>
+            </div>
+        </footer> 
+    </div>
+    <style>
+       
+    </style>
+    <script src="assets/scripts/events.js"></script>
+    <script src="assets/scripts/menu.js"></script>
+    <script src="assets/scripts/scrollanim.js"></script>
+    <script src="assets/scripts/startsrch.js"></script>
+    <script src="assets/scripts/reslide.js"></script>
+    <script src="assets/scripts/getusers.js"></script>
+</body>
+</html>

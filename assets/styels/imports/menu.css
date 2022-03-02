@@ -1,0 +1,134 @@
+.bar__menu {
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 1;
+  right: 3%;
+  top: 2%;
+  width: 50px;
+  height: 50px;
+  z-index: 600000000000;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.bar__menu span {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin-top: 9px;
+  display: block;
+  min-height: 4px;
+  max-height: 4px;
+  background: black;
+}
+
+.bar__menu span:nth-child(1) {
+  width: 50px;
+}
+
+.bar__menu span:nth-child(2) {
+  width: 36px;
+}
+
+.bar__menu span:nth-child(3) {
+  width: 26px;
+}
+
+.bar__menu:hover {
+  -webkit-transform: 0.5s;
+          transform: 0.5s;
+}
+
+.bar__menu:hover span {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.bar__menu:hover span:nth-child(1) {
+  width: 50px;
+}
+
+.bar__menu:hover span:nth-child(2) {
+  width: 50px;
+}
+
+.bar__menu:hover span:nth-child(3) {
+  width: 50px;
+}
+
+.menu {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 1000000;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  background: #F1F1F1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.menu__bar ol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.menu__bar ol li a {
+  font-family: Source Sans Pro;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 75px;
+  color: #000000;
+}
+
+.menu__bar ol li button {
+  width: 65px;
+  height: 40px;
+  background: #f2c71a00;
+  font-size: 40px;
+  color: black;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.menu__bar ol li button:hover {
+  color: #F2C71A;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.nav__hide {
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  opacity: 0 !important;
+  width: 0px !important;
+}
+/*# sourceMappingURL=menu.css.map */
